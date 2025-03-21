@@ -1,0 +1,114 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f8f8f8;
+  box-shadow: 0 4px 2px -2px gray;
+}
+
+.navbar-left h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.back-home-btn {
+  background-color: white;
+  color: #ff6600;
+  border: 2px solid #ff6600;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.back-home-btn:hover {
+  background-color: #ffcc99;
+}
+
+.navbar-right .nav-link {
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #333;
+}
+
+.navbar-right .nav-link:hover {
+  color: #007bff;
+}
+
+
+.hero-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f1f1f1;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* Cakes section styling */
+.cakes-section {
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+.cakes-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.cakes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cake-card {
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: #fff;
+}
+
+.cake-image {
+  width: 100%;
+  height: 200px; /* Fix height to make all images same size */
+  object-fit: cover; /* Crop the image to fit the container while maintaining aspect ratio */
+}
+
+.cake-card h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.cake-card p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.add-to-cart-btn {
+  padding: 10px;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #0056b3;
+}
